@@ -1,0 +1,25 @@
+# --- API layer ---
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9      # file uploads
+pydantic==2.9.2
+pydantic-settings==2.5.2
+
+# --- Async job processing ---
+celery==5.4.0
+redis==5.0.8
+
+# --- Persistence ---
+sqlalchemy==2.0.35
+psycopg2-binary==2.9.9        # Postgres driver
+
+# --- Object storage (S3 / MinIO) ---
+boto3==1.35.24
+
+# --- Transcription ---
+openai-whisper==20231117
+pydub==0.25.1                 # audio slicing for long-file chunking
+
+# --- Tests ---
+pytest==8.3.3
+httpx==0.27.2

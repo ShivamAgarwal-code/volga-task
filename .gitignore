@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Env / secrets
+.env
+
+# Local storage + models
+storage/
+*.sqlite3
+*.db
+whisper_models/
+
+# Audio artifacts
+sample_data/*.wav
+sample_data/*.mp3
+sample_data/*.m4a
+!sample_data/.gitkeep
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.log
